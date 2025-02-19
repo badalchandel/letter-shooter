@@ -5,17 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Letter Shooter</title>
-    
+
 </head>
 <body>
     <h1>Letter Shooter</h1>
     <div id="scoreboard">Score: <span id="score">0</span> | High Score: <span id="high-score">0</span></div>
     <div id="timer">Time Left: <span id="time">60</span> sec</div>
-    
-    <div id="timer-settings">
-        <label for="set-time">Set Timer: </label>
-        <input type="number" id="set-time" min="1" max="5" value="1">
-    </div>
+    <div id="countdown"></div>
+    <div id="game-over-message"></div>
 
     <script src="js.js"></script>
 </body>
